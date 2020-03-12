@@ -1,0 +1,24 @@
+
+int ledPin = 10; // LED connected to digital pin 13e
+
+void setup() { pinMode(ledPin, OUTPUT); }// sets the digital pin as output 
+
+void loop()
+{ digitalWrite(ledPin, HIGH); 
+
+
+delay(2000); // waits for 2 seconds 
+digitalWrite(ledPin, LOW); // sets the LED off 
+delay(1000); // waits for a second
+
+// I then repeat the process with shorter intervals to make it a bit more entertaining to watch digitalWrite(ledPin, HIGH);
+delay(100);
+digitalWrite(ledPin, LOW);
+delay(100);
+digitalWrite(ledPin, HIGH);
+delay(100);
+digitalWrite(ledPin, LOW);
+delay(1000);
+}
+
+// i used a guide for a basic loop and made some changes of my own to get a better grasp of what i can and cant do+
