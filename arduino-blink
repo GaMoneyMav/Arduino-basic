@@ -22,3 +22,4 @@ delay(1000);
 }
 
 // i used a guide for a basic loop and made some changes of my own to get a better grasp of what i can and cant do+
+//pin 10 was wired to a breadboard so i had more room to work with 
